@@ -3,17 +3,31 @@
   <head>
     <meta charset="utf-8">
     <title>Conversor</title>
+    <style type = "text/css">
+    body{
+      background-color: #ECCEF5;
+      color: #3B0B17;
+      font-family: Helvetica;
+      font-weight: bold;
+    }
+    h1{
+      color: #04666F;
+    }
+    h3{
+      color: #06737D;
+    }
+    </style>
   </head>
-  <body>
+  <body align="center">
     <h1> Conversor de grados Celsius y Fahrenheit </h1>
-    <table border="1">
+    <table border="1" align="center">
       <tr>
         <td>Fahrenheit</td>
         <td>
           <input type="text" id="fahrenheit">
         </td>
         <td>
-          <button name="fahrenheit" type="button" onclick="convertirCelcius();">
+          <button name="fahrenheit" type="button" style="background-color:#DBB4E6;" onclick="convertirCelcius();">
           Convertir a Celsius </button>
         </td>
       </tr>
@@ -23,12 +37,11 @@
           <input type="text" id="celsius">
         </td>
         <td>
-          <button name="celsius" type="button" onclick="convertirFahrenheit();">
+          <button name="celsius" type="button" style="background-color:#DBB4E6;" onclick="convertirFahrenheit();">
           Convertir a Fahrenheit </button>
         </td>
       </tr>
     </table>
-    <!-- <label> conversión </label> -->
     <script src="assets/js/conversor_grados.js"></script>
   </body>
 </html>
